@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'nunito', sans-serif;
+  list-style: none;
+}
+.btn {
+    width: 100px;
+    height: 43px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .btn-success {
+    background-color: rgb(27, 226, 27);
+  }
+  
+  /* CLOCK STYLES */
+  .wrapper {
+    background: #FF8008;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFC837, #FF8008);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFC837, #FF8008);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-chronometer {
+    width: 450px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 3px 4px 21px -2px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 3px 4px 21px -2px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 3px 4px 21px -2px rgba(0, 0, 0, 0.38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+ 
+  
+  .container-chronometer {
+    width: 600px;
+  }
+  
+.container-chronometer .chronometer {
+    font-size: 5.3rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+  }
+  
+
+  .container-chronometer .container-buttons {
+    width: 100%;
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .container-buttons button {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    background-color: rgb(36, 231, 117);
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 3px 4px 21px -2px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 3px 4px 21px -2px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 3px 4px 21px -2px rgba(0, 0, 0, 0.38);
+  }
+  
+  .container-buttons button:nth-child(2) {
+    background-color: #d57c39;
+  }
+  
+  .container-buttons button:nth-child(3) {
+    background-color: #ee361d;
+  }
+  
+  .container-buttons button:nth-child(4) {
+    background-color: #d539cd;
+  }
+  
+  button i {
+    font-size: 1.5rem;
+  }
+  
+  .container-buttons button:nth-child(1):disabled, .container-buttons button:nth-child(2):disabled, .container-buttons button:nth-child(3):disabled, .container-buttons button:nth-child(4):disabled {
+    background-color: rgb(171, 173, 172);
+  }
+  
